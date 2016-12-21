@@ -1,8 +1,8 @@
-1) Open a command prompt in the project's root directory (APM)
+1)Crie uma pasta  (wfAngular2-0)
 
-2) Type: `npm install`
-    This installs the dependencies as defined in the package.json file.
+2) Comando: `npm install`
+    Instala as dependencias existentes no  package.json do arquivo.
     
-3) Type: `npm start`
-    This launches the TypeScript compiler (tsc) to compile the application and wait for changes. 
-    It also starts the lite-server and launches the browser to run the application.
+3) Comando: `npm start`
+   Excuta um  copilador TypeScript (tsc) . 
+   Tambem inicia o serviço com  o lite-server.
