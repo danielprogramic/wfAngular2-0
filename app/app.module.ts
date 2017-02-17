@@ -3,7 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }  from '@angular/forms';
 import { AppComponent }  from './app.component';
 
+//import component list
 import { ProductListComponent }  from './products/product-list.component';
+//import pipe filter in component list
+import { ProductFilterPipe }  from './products/product-filter.pipe';
 
 @NgModule({
   imports: [ 
@@ -12,7 +15,8 @@ import { ProductListComponent }  from './products/product-list.component';
   ],
   declarations: [ 
     AppComponent,
-    ProductListComponent ],
+    ProductListComponent,
+    ProductFilterPipe ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
